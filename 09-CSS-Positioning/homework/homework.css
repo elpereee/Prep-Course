@@ -56,16 +56,21 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Ejercicio 7. */
 #elementoUno{
-    align-self: flex-end;
+
+    /*align-self: flex-start;*/
 }
 #elementoDos{
-    
-    align-content: flex-end;
+    order: 1;
+    align-self: flex-end;
 }
-/*#elementoTres{
+#elementoTres{
+    order: -2;
 
-
-}*/
+}
+#elementoCuatro{
+    order: -3;
+    align-self: flex-end;
+}
 #ejercicioSiete{
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
