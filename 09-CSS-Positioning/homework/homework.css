@@ -55,22 +55,22 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 }    
 
 /* Ejercicio 7. */
-#elementoUno{
 
-    /*align-self: flex-start;*/
+#ejercicioSiete{
+    flex-direction: column;
+}
+#elementoUno{
+    position: static;
+    
 }
 #elementoDos{
-    order: 1;
-    align-self: flex-end;
+   order: 1;
+   position: static;
 }
 #elementoTres{
-    order: -2;
-
+    align-self: flex-end;
+    
 }
 #elementoCuatro{
-    order: -3;
     align-self: flex-end;
-}
-#ejercicioSiete{
-    flex-direction: row;
 }
